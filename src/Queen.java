@@ -5,7 +5,7 @@ import java.util.List;
 public class Queen {
     private static final char BLANK = '-';
     private static final char QUEEN = '♕';
-    private static final int SIZE = 8;
+    private static final int SIZE = 5;
 
     private List<String> conversion(char[][] board) {
         List<String> nb = new ArrayList<>();
