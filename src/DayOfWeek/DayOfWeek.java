@@ -1,14 +1,16 @@
+package DayOfWeek;
+
 import java.util.Scanner;
 
 /**
- * DayOfWeek takes an input(s) string in the order MM DD YYYY deliminated by spaces and returns the day of the week for that date.
+ * DayOfWeek.DayOfWeek takes an input(s) string in the order MM DD YYYY deliminated by spaces and returns the day of the week for that date.
  * This calss does not use any Java utility methods excluding Scanner for the purpose of the exercise.
  * @author Rafael Szuminski
  * @version 1.0
  * @date 2022-09-27
  */
 
-//My first plan was to write a utility class called Date that would replicate how Date works in Java. However I soon realized that would take forever.
+//My first plan was to write a utility class called Date that would replicate how Date works in Java. However, I soon realized that would take forever.
 public class DayOfWeek {
     public static void main(String[] args) {
         System.out.println(

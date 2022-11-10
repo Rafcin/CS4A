@@ -1,3 +1,5 @@
+package Queen;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -5,7 +7,7 @@ import java.util.List;
 public class Queen {
     private static final char BLANK = '-';
     private static final char QUEEN = '♕';
-    private static final int SIZE = 5;
+    private static final int SIZE = 8;
 
     private List<String> conversion(char[][] board) {
         List<String> nb = new ArrayList<>();
@@ -21,8 +23,8 @@ public class Queen {
         if (row == n) { result.add(conversion(board)); return; }
         /**
          * Loop through each col
-         * If we can't add the Queen to the current col @ this pos, we skip this col val.
-         * If we can add the Queen to the current col @ this pos, we add it and perform bit manip.
+         * If we can't add the Queen.Queen to the current col @ this pos, we skip this col val.
+         * If we can add the Queen.Queen to the current col @ this pos, we add it and perform bit manip.
          * Undo try other combs
          */
         //https://codereview.stackexchange.com/questions/75517/n-queens-brute-force-bit-by-bit

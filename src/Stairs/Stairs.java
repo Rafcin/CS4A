@@ -1,3 +1,5 @@
+package Stairs;
+
 public class Stairs {
     public static int climb(int n) {
         if (n == 1) return 1;
